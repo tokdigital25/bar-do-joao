@@ -1,1 +1,77 @@
 
+name: Backup do Cardapio
+
+'on':
+  schedule:
+    - cron: '35 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Gerar copia do cardapio
+        env:
+          SUPABASE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          mkdir -p dados
+
+          curl --fail-with-body --silent --show-error \
+            --retry 2 \
+            --max-time 30 \
+            -H "apikey: ${SUPABASE_KEY}" \
+            "https://pwynwxegkxksojhhjbmr.supabase.co/rest/v1/categorias?select=id,nome,ordem,imagem_url,ativo&ativo=eq.true&order=ordem.asc,id.asc" \
+            -o dados/categorias.tmp
+
+          curl --fail-with-body --silent --show-error \
+            --retry 2 \
+            --max-time 30 \
+            -H "apikey: ${SUPABASE_KEY}" \
+            "https://pwynwxegkxksojhhjbmr.supabase.co/rest/v1/produtos?select=id,categoria_id,nome,descricao,preco,imagem_url,disponivel,ordem&disponivel=eq.true&order=ordem.asc,id.asc" \
+            -o dados/produtos.tmp
+
+          python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          categorias = json.loads(Path("dados/categorias.tmp").read_text())
+          produtos = json.loads(Path("dados/produtos.tmp").read_text())
+
+          if not isinstance(categorias, list) or not isinstance(produtos, list):
+              raise ValueError("Resposta inesperada do Supabase")
+
+          backup = {
+              "atualizado_em": datetime.now(timezone.utc).isoformat(),
+              "categorias": categorias,
+              "produtos": produtos
+          }
+
+          Path("dados/cardapio-backup.json").write_text(
+              json.dumps(backup, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+          rm dados/categorias.tmp dados/produtos.tmp
+
+      - name: Salvar backup no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/cardapio-backup.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteracao."
+          else
+            git commit -m "Atualizar backup do cardapio"
+            git push
+          fi
+
