@@ -1,1 +1,26 @@
+name: Verificar Supabase
+
+on:
+  schedule:
+    - cron: '17 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Consultar banco de dados
+        env:
+          SUPABASE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          curl --fail-with-body --silent --show-error \
+            --retry 2 \
+            --max-time 30 \
+            -H "apikey: ${SUPABASE_KEY}" \
+            "https://pwynwxegkxksojhhjbmr.supabase.co/rest/v1/categorias?select=id&limit=1"
+
+          echo "Supabase funcionando!"
 
