@@ -1,9 +1,10 @@
+
 name: Verificar Supabase
 
-on:
+'on':
+  workflow_dispatch:
   schedule:
     - cron: '17 12 * * *'
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,7 +13,7 @@ jobs:
   verificar:
     runs-on: ubuntu-latest
     steps:
-      - name: Consultar banco de dados
+      - name: Consultar Supabase
         env:
           SUPABASE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
         run: |
@@ -23,4 +24,3 @@ jobs:
             "https://pwynwxegkxksojhhjbmr.supabase.co/rest/v1/categorias?select=id&limit=1"
 
           echo "Supabase funcionando!"
-
