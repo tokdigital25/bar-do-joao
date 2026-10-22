@@ -1,0 +1,1074 @@
+{
+  "atualizado_em": "2026-10-22T21:18:22.434403+00:00",
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Chopp",
+      "ordem": 1,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Cervejas garrafa",
+      "ordem": 2,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Cervejas long neck",
+      "ordem": 3,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "nome": "Refrigerantes e águas",
+      "ordem": 4,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 5,
+      "nome": "Sucos",
+      "ordem": 5,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 6,
+      "nome": "Drinks",
+      "ordem": 6,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 7,
+      "nome": "Caipirinhas",
+      "ordem": 7,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 8,
+      "nome": "Doses",
+      "ordem": 8,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 9,
+      "nome": "Vinhos",
+      "ordem": 9,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 10,
+      "nome": "Porções",
+      "ordem": 10,
+      "imagem_url": null,
+      "ativo": true
+    },
+    {
+      "id": 11,
+      "nome": "Sobremesas",
+      "ordem": 11,
+      "imagem_url": null,
+      "ativo": true
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "categoria_id": 1,
+      "nome": "Chopp Berlin Pilsen 300ml",
+      "descricao": "",
+      "preco": 8.0,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/d174f688-5331-40b8-a386-ac30e50fa862.jpg",
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 2,
+      "categoria_id": 2,
+      "nome": "Spaten 600ml",
+      "descricao": null,
+      "preco": 16.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 8,
+      "categoria_id": 3,
+      "nome": "Corona 330ml",
+      "descricao": null,
+      "preco": 13.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 11,
+      "categoria_id": 4,
+      "nome": "Guaraná",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 21,
+      "categoria_id": 5,
+      "nome": "Laranja",
+      "descricao": null,
+      "preco": 11.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 33,
+      "categoria_id": 6,
+      "nome": "Espanhola",
+      "descricao": "Abacaxi, vinho e leite condensado",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 48,
+      "categoria_id": 7,
+      "nome": "Caipirinha (cachaça)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 20.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 56,
+      "categoria_id": 8,
+      "nome": "Tequila prata e ouro",
+      "descricao": null,
+      "preco": 18.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 69,
+      "categoria_id": 9,
+      "nome": "Vinho taça — tinto seco ou suave",
+      "descricao": null,
+      "preco": 20.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 71,
+      "categoria_id": 10,
+      "nome": "Bolinho de costela — 9 unidades",
+      "descricao": "Recheado com queijo",
+      "preco": 58.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 98,
+      "categoria_id": 11,
+      "nome": "Petit gâteau do João",
+      "descricao": "Petit gâteau de chocolate com sorvete de creme, morango e calda de Nutella",
+      "preco": 28.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 3,
+      "categoria_id": 2,
+      "nome": "Original 600ml",
+      "descricao": null,
+      "preco": 16.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 9,
+      "categoria_id": 3,
+      "nome": "Corona Zero 330ml",
+      "descricao": null,
+      "preco": 13.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 12,
+      "categoria_id": 4,
+      "nome": "Guaraná Zero",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 22,
+      "categoria_id": 5,
+      "nome": "Limão",
+      "descricao": null,
+      "preco": 10.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 34,
+      "categoria_id": 6,
+      "nome": "Mojito",
+      "descricao": "Rum, soda, limão espremido e hortelã",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 49,
+      "categoria_id": 7,
+      "nome": "Saquerinha (saquê)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 23.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 57,
+      "categoria_id": 8,
+      "nome": "Cachaça Salinas",
+      "descricao": null,
+      "preco": 9.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 70,
+      "categoria_id": 9,
+      "nome": "Vinho garrafa",
+      "descricao": "PREÇO SOB CONSULTA — valor provisório R$ 0,00; atualizar antes de publicar.",
+      "preco": 0.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 72,
+      "categoria_id": 10,
+      "nome": "Bolinho de tilápia — 300g",
+      "descricao": null,
+      "preco": 39.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 99,
+      "categoria_id": 11,
+      "nome": "Grand gâteau",
+      "descricao": "Grand gâteau com calda de chocolate, morangos picados e leite condensado",
+      "preco": 40.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 4,
+      "categoria_id": 2,
+      "nome": "Baden Baden 600ml",
+      "descricao": null,
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 10,
+      "categoria_id": 3,
+      "nome": "Stella Gold 330ml",
+      "descricao": null,
+      "preco": 13.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 13,
+      "categoria_id": 4,
+      "nome": "Soda Limonada",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 23,
+      "categoria_id": 5,
+      "nome": "Limonada suíça",
+      "descricao": null,
+      "preco": 13.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 35,
+      "categoria_id": 6,
+      "nome": "Sex on the Beach",
+      "descricao": "Laranja, vodka, licor de pêssego e grenadine",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 50,
+      "categoria_id": 7,
+      "nome": "Saquerinha de frutas vermelhas",
+      "descricao": "Morango e amora",
+      "preco": 26.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 58,
+      "categoria_id": 8,
+      "nome": "Cachaça Dona Diva Ouro",
+      "descricao": null,
+      "preco": 10.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 73,
+      "categoria_id": 10,
+      "nome": "Bolinho de bacalhau — 10 unidades",
+      "descricao": null,
+      "preco": 66.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 5,
+      "categoria_id": 2,
+      "nome": "Heineken 600ml",
+      "descricao": null,
+      "preco": 19.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 14,
+      "categoria_id": 4,
+      "nome": "Coca-Cola",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 24,
+      "categoria_id": 5,
+      "nome": "Acerola",
+      "descricao": null,
+      "preco": 9.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 36,
+      "categoria_id": 6,
+      "nome": "Margaritha",
+      "descricao": "Cointreau, limão e tequila",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 51,
+      "categoria_id": 7,
+      "nome": "Caipiroska (Smirnoff)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 59,
+      "categoria_id": 8,
+      "nome": "Cachaça Dona Diva Prata",
+      "descricao": null,
+      "preco": 6.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 74,
+      "categoria_id": 10,
+      "nome": "Bolinho de provolone — 300g",
+      "descricao": null,
+      "preco": 65.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 6,
+      "categoria_id": 2,
+      "nome": "Brahma 600ml",
+      "descricao": null,
+      "preco": 14.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 15,
+      "categoria_id": 4,
+      "nome": "Coca-Cola Zero",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 25,
+      "categoria_id": 5,
+      "nome": "Maracujá",
+      "descricao": null,
+      "preco": 12.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 37,
+      "categoria_id": 6,
+      "nome": "Aperol Spritz",
+      "descricao": "Aperol, espumante e água com gás",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 52,
+      "categoria_id": 7,
+      "nome": "Caipiroska (Absolut)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 60,
+      "categoria_id": 8,
+      "nome": "Campari",
+      "descricao": null,
+      "preco": 14.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 75,
+      "categoria_id": 10,
+      "nome": "Salaminho",
+      "descricao": null,
+      "preco": 36.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 7,
+      "categoria_id": 2,
+      "nome": "Petra 600ml",
+      "descricao": null,
+      "preco": 13.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 16,
+      "categoria_id": 4,
+      "nome": "Schweppes",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 26,
+      "categoria_id": 5,
+      "nome": "Morango",
+      "descricao": null,
+      "preco": 12.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 38,
+      "categoria_id": 6,
+      "nome": "Negroni",
+      "descricao": "Gin Tanqueray, vermute e Campari",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 53,
+      "categoria_id": 7,
+      "nome": "Caip Tropical",
+      "descricao": "Cachaça, limão cravo e maracujá",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 61,
+      "categoria_id": 8,
+      "nome": "Rum Bacardi prata e ouro",
+      "descricao": null,
+      "preco": 12.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 76,
+      "categoria_id": 10,
+      "nome": "Batata frita — 400g",
+      "descricao": null,
+      "preco": 32.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 6
+    },
+    {
+      "id": 17,
+      "categoria_id": 4,
+      "nome": "Tônica",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 27,
+      "categoria_id": 5,
+      "nome": "Abacaxi",
+      "descricao": null,
+      "preco": 11.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 39,
+      "categoria_id": 6,
+      "nome": "Piña Colada",
+      "descricao": "Abacaxi, leite condensado, rum e leite de coco",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 54,
+      "categoria_id": 7,
+      "nome": "Caip Frutas Vermelhas",
+      "descricao": "Morango e amora",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 62,
+      "categoria_id": 8,
+      "nome": "Vodka Smirnoff",
+      "descricao": null,
+      "preco": 14.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 77,
+      "categoria_id": 10,
+      "nome": "Batata pork",
+      "descricao": "Batata frita com pulled pork, suculento cupim lombro assado até desmanchar e molho barbecue",
+      "preco": 47.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 7
+    },
+    {
+      "id": 18,
+      "categoria_id": 4,
+      "nome": "Tônica Zero",
+      "descricao": null,
+      "preco": 7.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 28,
+      "categoria_id": 5,
+      "nome": "Abacaxi com hortelã",
+      "descricao": null,
+      "preco": 12.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 40,
+      "categoria_id": 6,
+      "nome": "Moscow Mule",
+      "descricao": "Vodka, xarope de gengibre, limão e água com gás",
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 55,
+      "categoria_id": 7,
+      "nome": "Caip Verão (Smirnoff)",
+      "descricao": "Mexerica, limão e gengibre",
+      "preco": 27.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 63,
+      "categoria_id": 8,
+      "nome": "Vodka Absolut",
+      "descricao": null,
+      "preco": 20.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 78,
+      "categoria_id": 10,
+      "nome": "Batata com cheddar e bacon — 400g",
+      "descricao": null,
+      "preco": 45.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 8
+    },
+    {
+      "id": 19,
+      "categoria_id": 4,
+      "nome": "Água sem gás",
+      "descricao": null,
+      "preco": 4.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 9
+    },
+    {
+      "id": 29,
+      "categoria_id": 5,
+      "nome": "Laranja com morango",
+      "descricao": null,
+      "preco": 15.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 9
+    },
+    {
+      "id": 41,
+      "categoria_id": 6,
+      "nome": "Maracujá Jack",
+      "descricao": "Jack Daniels, maracujá e gelo",
+      "preco": 38.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 9
+    },
+    {
+      "id": 64,
+      "categoria_id": 8,
+      "nome": "Whisky Red Label",
+      "descricao": null,
+      "preco": 20.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 9
+    },
+    {
+      "id": 79,
+      "categoria_id": 10,
+      "nome": "Batata com queijo e bacon — 400g",
+      "descricao": null,
+      "preco": 43.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 9
+    },
+    {
+      "id": 20,
+      "categoria_id": 4,
+      "nome": "Água com gás",
+      "descricao": null,
+      "preco": 6.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 10
+    },
+    {
+      "id": 30,
+      "categoria_id": 5,
+      "nome": "Laranja com acerola",
+      "descricao": null,
+      "preco": 14.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 10
+    },
+    {
+      "id": 42,
+      "categoria_id": 6,
+      "nome": "Gin Aromático",
+      "descricao": "Gin Tanqueray, tônica e especiarias aromáticas",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 10
+    },
+    {
+      "id": 65,
+      "categoria_id": 8,
+      "nome": "Whisky Black Label",
+      "descricao": null,
+      "preco": 27.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 10
+    },
+    {
+      "id": 80,
+      "categoria_id": 10,
+      "nome": "Frango na panko — 330g",
+      "descricao": null,
+      "preco": 39.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 10
+    },
+    {
+      "id": 31,
+      "categoria_id": 5,
+      "nome": "Frutas vermelhas",
+      "descricao": null,
+      "preco": 15.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 11
+    },
+    {
+      "id": 43,
+      "categoria_id": 6,
+      "nome": "Gin Mule",
+      "descricao": "Gin Tanqueray, tônica, xarope de gengibre, limão e espuma de gengibre",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 11
+    },
+    {
+      "id": 66,
+      "categoria_id": 8,
+      "nome": "Whisky Jack Daniels",
+      "descricao": null,
+      "preco": 27.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 11
+    },
+    {
+      "id": 81,
+      "categoria_id": 10,
+      "nome": "Tulipa de frango — 400g",
+      "descricao": null,
+      "preco": 42.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 11
+    },
+    {
+      "id": 32,
+      "categoria_id": 5,
+      "nome": "Suco Paris",
+      "descricao": null,
+      "preco": 16.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 12
+    },
+    {
+      "id": 44,
+      "categoria_id": 6,
+      "nome": "Gin Frutado",
+      "descricao": "Gin Tanqueray, tônica, morango e maracujá",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 12
+    },
+    {
+      "id": 67,
+      "categoria_id": 8,
+      "nome": "Licor 43",
+      "descricao": null,
+      "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 12
+    },
+    {
+      "id": 82,
+      "categoria_id": 10,
+      "nome": "Tilápia na panko — 300g",
+      "descricao": null,
+      "preco": 57.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 12
+    },
+    {
+      "id": 45,
+      "categoria_id": 6,
+      "nome": "Blonde Citrus",
+      "descricao": "Whisky Johnnie Walker Blonde, cítrus e laranja",
+      "preco": 26.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 13
+    },
+    {
+      "id": 68,
+      "categoria_id": 8,
+      "nome": "Steinhaeger",
+      "descricao": null,
+      "preco": 10.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 13
+    },
+    {
+      "id": 83,
+      "categoria_id": 10,
+      "nome": "Polenta frita",
+      "descricao": null,
+      "preco": 27.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 13
+    },
+    {
+      "id": 46,
+      "categoria_id": 6,
+      "nome": "Amora Blonde",
+      "descricao": "Whisky Johnnie Walker Blonde, água com gás, xarope de grenadine e amora",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 14
+    },
+    {
+      "id": 84,
+      "categoria_id": 10,
+      "nome": "Polenta frita com costela",
+      "descricao": null,
+      "preco": 43.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 14
+    },
+    {
+      "id": 47,
+      "categoria_id": 6,
+      "nome": "Blonde Tropical",
+      "descricao": "Whisky Johnnie Walker Blonde, água com gás, maracujá e limão cravo",
+      "preco": 27.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 15
+    },
+    {
+      "id": 85,
+      "categoria_id": 10,
+      "nome": "Mini pastel de milho — 10 unidades",
+      "descricao": "Carne e queijo",
+      "preco": 37.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 15
+    },
+    {
+      "id": 86,
+      "categoria_id": 10,
+      "nome": "Torresmo de rolo mineiro — 450g",
+      "descricao": "Torresmos com mussarela derretida e pimenta biquinho",
+      "preco": 58.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 16
+    },
+    {
+      "id": 87,
+      "categoria_id": 10,
+      "nome": "Torresminho pipoca",
+      "descricao": null,
+      "preco": 33.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 17
+    },
+    {
+      "id": 88,
+      "categoria_id": 10,
+      "nome": "Isca de parmegiana",
+      "descricao": "Filé mignon em tiras empanado na panko com molho de tomate e queijo, acompanhado de fritas",
+      "preco": 103.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 18
+    },
+    {
+      "id": 89,
+      "categoria_id": 10,
+      "nome": "Linguiça de costela Angus",
+      "descricao": "Batata frita com ervas finas, queijo mussarela derretido, farofa e vinagrete",
+      "preco": 62.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 19
+    },
+    {
+      "id": 90,
+      "categoria_id": 10,
+      "nome": "Contra filé com fritas — 500g",
+      "descricao": "Contra filé, fritas, vinagrete e farofa",
+      "preco": 92.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 20
+    },
+    {
+      "id": 91,
+      "categoria_id": 10,
+      "nome": "Filé mignon nevada",
+      "descricao": "Filé mignon ao molho branco com queijo gorgonzola e parmesão",
+      "preco": 107.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 21
+    },
+    {
+      "id": 92,
+      "categoria_id": 10,
+      "nome": "Cupim à moda da casa — serve 2 pessoas",
+      "descricao": "Coberto com mussarela, assado e finalizado no sous vide por 20h, acompanhado de farofa, vinagrete e mandioca cozida",
+      "preco": 120.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 22
+    },
+    {
+      "id": 93,
+      "categoria_id": 10,
+      "nome": "Costelinha barbecue 500g",
+      "descricao": "Costelinha de porco, barbecue e batata frita",
+      "preco": 79.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 23
+    },
+    {
+      "id": 94,
+      "categoria_id": 10,
+      "nome": "Escondidinho de costela 1 pessoa",
+      "descricao": null,
+      "preco": 42.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 24
+    },
+    {
+      "id": 95,
+      "categoria_id": 10,
+      "nome": "Escondidinho de costela 2 pessoas",
+      "descricao": null,
+      "preco": 68.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 25
+    },
+    {
+      "id": 96,
+      "categoria_id": 10,
+      "nome": "Escondidinho de camarão 1 pessoa",
+      "descricao": null,
+      "preco": 68.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 26
+    },
+    {
+      "id": 97,
+      "categoria_id": 10,
+      "nome": "Dadinho de tapioca — 300g",
+      "descricao": "Recheado com queijo coalho e molho de frutas vermelhas",
+      "preco": 57.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 27
+    }
+  ]
+}
