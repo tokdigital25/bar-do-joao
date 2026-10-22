@@ -1,8 +1,8 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101010"><title>BAR DO JOÃO | Cardápio Digital</title><style>
 :root{--bg:#0d0d0e;--panel:#1b1a19;--gold:#e3b85c;--text:#fff8ec;--muted:#bcb5a8}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px system-ui,-apple-system,Segoe UI,sans-serif}button{font:inherit;cursor:pointer}.shell{max-width:1040px;margin:auto}.hero{padding:42px 20px 34px;text-align:center;background:radial-gradient(ellipse at top,#44331d 0,#17130f 50%,#0d0d0e 90%);border-bottom:1px solid #493c26}.logo{display:inline-block;border:2px solid var(--gold);padding:13px 25px;transform:skew(-5deg);font:900 36px Georgia,serif;letter-spacing:1px}.logo span{display:block;font:italic 29px Georgia,serif;color:var(--gold)}.hero p{color:var(--muted);letter-spacing:2px;font-size:12px}.heading{color:var(--gold);font:700 25px Georgia,serif;margin:28px 0 18px}.wrap{padding:0 16px 60px}.categories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{background:#1b1a19;border:1px solid #69522d;border-radius:14px;overflow:hidden;padding:0;color:var(--text);text-align:left;transition:transform .15s}.tile:hover,.tile:focus-visible{border-color:var(--gold);transform:translateY(-2px)}.tile img{width:100%;height:130px;object-fit:cover;display:block}.tile .info{display:block;padding:12px;font-weight:750}.tile small{display:block;color:var(--muted);font-weight:400;margin-top:4px}.category-view{display:none}.category-view.active{display:block}.home.hidden{display:none}.back{margin:22px 0 4px;background:transparent;border:1px solid var(--gold);color:var(--gold);padding:10px 16px;border-radius:999px}.category-top{display:flex;align-items:center;gap:16px;margin:16px 0 22px}.category-top img{width:110px;height:86px;object-fit:cover;border-radius:12px}.category-top h2{color:var(--gold);font:700 25px Georgia,serif;margin:0}.category-top p{margin:5px 0;color:var(--muted);font-size:13px}.item{background:var(--panel);border:1px solid #36302a;border-radius:12px;padding:15px;margin:10px 0;display:flex;justify-content:space-between;gap:12px}.item strong{display:block;font-size:15px}.desc{font-size:13px;color:var(--muted);margin-top:5px;line-height:1.5}.price{color:var(--gold);font-weight:750;white-space:nowrap;font-size:14px}.note{color:var(--muted);font-size:12px;line-height:1.6;margin:30px 0}footer{text-align:center;padding:20px;color:var(--muted);font-size:12px;border-top:1px solid #393126}@media(min-width:680px){.categories{grid-template-columns:repeat(4,minmax(0,1fr))}.tile img{height:160px}.hero{padding:60px 20px}.wrap{padding:0 28px 70px}}
 
-.item-photo{width:88px;height:78px;object-fit:cover;border-radius:9px;flex-shrink:0}.item-info{flex:1;min-width:0}.item{align-items:center}.feedback{background:#241f17;border:1px solid #74572c;border-radius:12px;padding:18px;margin:18px 0;color:#f4dfb5}.retry{background:var(--gold);border:0;border-radius:8px;padding:9px 14px;color:#17130b;font-weight:bold;margin-top:8px}.tile .placeholder,.category-top .placeholder{background:#30271b;display:grid;place-items:center;color:var(--gold);font-size:35px}.tile .placeholder{height:130px}.category-top .placeholder{width:110px;height:86px;border-radius:12px;flex-shrink:0}@media(min-width:680px){.tile .placeholder{height:160px}}
-</style></head><body><header class="hero"><div class="logo">BAR DO<span>João</span></div><p>AS MELHORES OPÇÕES PARA VOCÊ</p></header><div class="shell wrap"><main><div id="home" class="home"><h1 class="heading">Nosso cardápio</h1><p style="color:var(--muted)">Escolha uma categoria para conhecer nossos produtos.</p><div id="feedback" class="feedback" role="status">Carregando cardápio...</div><div id="categories" class="categories"></div></div><div id="categoryView" class="category-view"><button class="back" id="back">← Voltar às categorias</button><div id="categoryContent"></div></div></main><p class="note">* Consulte a disponibilidade dos produtos no estabelecimento. Imagens podem ser ilustrativas.</p></div><footer>BAR DO JOÃO · Cardápio digital</footer><script>
+.item-photo{width:88px;height:78px;object-fit:cover;border-radius:9px;flex-shrink:0}.item-info{flex:1;min-width:0}.item{align-items:center}.feedback{background:#241f17;border:1px solid #74572c;border-radius:12px;padding:18px;margin:18px 0;color:#f4dfb5}.backup-notice{font-size:12px;color:#f4dfb5;background:#292219;border:1px solid #74572c;padding:10px 14px;border-radius:9px;margin:12px 0}.retry{background:var(--gold);border:0;border-radius:8px;padding:9px 14px;color:#17130b;font-weight:bold;margin-top:8px}.tile .placeholder,.category-top .placeholder{background:#30271b;display:grid;place-items:center;color:var(--gold);font-size:35px}.tile .placeholder{height:130px}.category-top .placeholder{width:110px;height:86px;border-radius:12px;flex-shrink:0}@media(min-width:680px){.tile .placeholder{height:160px}}
+</style></head><body><header class="hero"><div class="logo">BAR DO<span>João</span></div><p>AS MELHORES OPÇÕES PARA VOCÊ</p></header><div class="shell wrap"><main><div id="home" class="home"><h1 class="heading">Nosso cardápio</h1><p style="color:var(--muted)">Escolha uma categoria para conhecer nossos produtos.</p><div id="feedback" class="feedback" role="status">Carregando cardápio...</div><div id="backupNotice" class="backup-notice" role="status" style="display:none"></div><div id="categories" class="categories"></div></div><div id="categoryView" class="category-view"><button class="back" id="back">← Voltar às categorias</button><div id="categoryContent"></div></div></main><p class="note">* Consulte a disponibilidade dos produtos no estabelecimento. Imagens podem ser ilustrativas.</p></div><footer>BAR DO JOÃO · Cardápio digital</footer><script>
 // CONFIGURAÇÃO: cole somente a chave pública (publishable ou anon) do Supabase.
 // Nunca utilize service_role nem sb_secret_ neste arquivo público.
 const SUPABASE_URL = 'https://pwynwxegkxksojhhjbmr.supabase.co';
@@ -11,6 +11,8 @@ const STORAGE_BUCKET = 'imagens-cardapio';
 const safe = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const home=document.getElementById('home'), view=document.getElementById('categoryView');
 const feedback=document.getElementById('feedback');
+const backupNotice=document.getElementById('backupNotice');
+const CACHE_KEY='bdj_menu_backup_v1';
 let categories=[], products=[];
 const fallback={'Chopp':'cervejas','Cervejas garrafa':'cervejas','Cervejas long neck':'cervejas','Refrigerantes e águas':'refrigerantes','Sucos':'drinks','Drinks':'drinks','Caipirinhas':'caipirinhas','Doses':'doses','Vinhos':'vinhos','Porções':'porcoes','Sobremesas':'sobremesas'};
 const currency=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'});
@@ -47,19 +49,47 @@ function show(i){
   history.replaceState(null,'','#categoria-'+i);window.scrollTo({top:0,behavior:'instant'});
 }
 function goHome(){view.classList.remove('active');home.classList.remove('hidden');history.replaceState(null,'',location.pathname+location.search);window.scrollTo({top:0,behavior:'instant'});}
+function validBackup(data){
+  return data && Array.isArray(data.categorias) && Array.isArray(data.produtos)
+    && data.categorias.length>0 && data.categorias.every(c=>typeof c.id==='number' && typeof c.nome==='string')
+    && data.produtos.every(p=>typeof p.categoria_id==='number' && typeof p.nome==='string');
+}
+function displayMenu(cs,ps,backup){
+  categories=cs.filter(c=>c.ativo!==false);
+  products=ps.filter(p=>p.disponivel!==false);
+  renderCategories();feedback.style.display='none';
+  backupNotice.style.display=backup?'block':'none';
+  if(backup)backupNotice.textContent='Cardápio em modo de segurança: exibindo a última cópia disponível. Preços e disponibilidade podem ter mudado. Confirme no balcão.';
+  const selected=location.hash.match(/^#categoria-(\d+)$/);
+  if(selected)show(Number(selected[1]));
+}
+async function loadBackup(){
+  // A cópia do GitHub funciona também para visitantes que nunca abriram o cardápio.
+  try{
+    const response=await fetch('./cardapio-reserva.json',{cache:'no-store'});
+    if(response.ok){const data=await response.json();if(validBackup(data))return data;}
+  }catch(e){}
+  // Cópia local para o mesmo navegador, útil se o arquivo estático estiver indisponível.
+  try{const data=JSON.parse(localStorage.getItem(CACHE_KEY)||'null');if(validBackup(data))return data;}catch(e){}
+  return null;
+}
 async function loadMenu(){
   feedback.style.display='block';feedback.textContent='Carregando cardápio...';
-  if(!SUPABASE_PUBLIC_KEY || SUPABASE_PUBLIC_KEY==='COLE_AQUI_SUA_CHAVE_PUBLICA'){
-    feedback.textContent='Configuração pendente: adicione a chave pública do Supabase no arquivo index.html antes de publicar.';return;
-  }
+  backupNotice.style.display='none';
   try{
     const [cs,ps]=await Promise.all([
       fetchRows('categorias','select=id,nome,ordem,imagem_url,ativo&ativo=eq.true&order=ordem.asc,id.asc'),
       fetchRows('produtos','select=id,categoria_id,nome,descricao,preco,imagem_url,disponivel,ordem&disponivel=eq.true&order=ordem.asc,id.asc')
     ]);
-    categories=cs;products=ps;renderCategories();feedback.style.display='none';
-    const initial=location.hash.match(/^#categoria-(\d+)$/);if(initial)show(Number(initial[1]));
-  }catch(e){feedback.innerHTML=`Não foi possível carregar o cardápio. Verifique a conexão e a chave pública do Supabase.<br><small>${safe(e.message)}</small><br><button class="retry" id="retry">Tentar novamente</button>`;document.getElementById('retry').onclick=loadMenu;}
+    if(!cs.length)throw new Error('Nenhuma categoria retornada pelo banco');
+    displayMenu(cs,ps,false);
+    try{localStorage.setItem(CACHE_KEY,JSON.stringify({categorias:cs,produtos:ps}));}catch(e){}
+  }catch(e){
+    const backup=await loadBackup();
+    if(backup){displayMenu(backup.categorias,backup.produtos,true);return;}
+    feedback.innerHTML=`Não foi possível carregar o cardápio nem a cópia de segurança.<br><small>${safe(e.message)}</small><br><button class="retry" id="retry">Tentar novamente</button>`;
+    document.getElementById('retry').onclick=loadMenu;
+  }
 }
 document.getElementById('categories').addEventListener('click',e=>{const b=e.target.closest('button[data-index]');if(b)show(Number(b.dataset.index))});
 document.getElementById('back').addEventListener('click',goHome);
