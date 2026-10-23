@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-22T21:18:22.434403+00:00",
+  "atualizado_em": "2026-10-23T17:22:18.830836+00:00",
   "categorias": [
     {
       "id": 1,
@@ -86,7 +86,7 @@
       "nome": "Chopp Berlin Pilsen 300ml",
       "descricao": "",
       "preco": 8.0,
-      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/d174f688-5331-40b8-a386-ac30e50fa862.jpg",
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/c4b01018-6a92-4532-b7df-023153d2bfd5.jpg",
       "disponivel": true,
       "ordem": 1
     },
