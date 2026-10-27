@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "2026-10-26T18:49:30.823808+00:00",
+  "atualizado_em": "2026-10-27T18:10:16.172151+00:00",
   "categorias": [
     {
       "id": 1,
       "nome": "Chopp",
       "ordem": 1,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/fadc93fb-bd36-4e52-9468-4a1be7b2e970.jpg",
       "ativo": true
     },
     {
@@ -81,21 +81,31 @@
   ],
   "produtos": [
     {
-      "id": 1,
+      "id": 101,
       "categoria_id": 1,
-      "nome": "Chopp Berlin Pilsen 300ml",
+      "nome": "Chopp de Vinho",
       "descricao": "",
-      "preco": 8.0,
-      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/c4b01018-6a92-4532-b7df-023153d2bfd5.jpg",
+      "preco": 15.0,
+      "imagem_url": null,
       "disponivel": true,
-      "ordem": 1
+      "ordem": 0
     },
     {
       "id": 2,
       "categoria_id": 2,
-      "nome": "Spaten 600ml",
-      "descricao": null,
-      "preco": 16.5,
+      "nome": "Stella Gold 600ml",
+      "descricao": "",
+      "preco": 19.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 3,
+      "categoria_id": 2,
+      "nome": "Original 600ml",
+      "descricao": "",
+      "preco": 17.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 1
@@ -111,10 +121,10 @@
       "ordem": 1
     },
     {
-      "id": 11,
+      "id": 14,
       "categoria_id": 4,
-      "nome": "Guaraná",
-      "descricao": null,
+      "nome": "Coca-Cola KS",
+      "descricao": "",
       "preco": 7.0,
       "imagem_url": null,
       "disponivel": true,
@@ -125,7 +135,7 @@
       "categoria_id": 5,
       "nome": "Laranja",
       "descricao": null,
-      "preco": 11.0,
+      "preco": 12.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 1
@@ -141,21 +151,11 @@
       "ordem": 1
     },
     {
-      "id": 48,
-      "categoria_id": 7,
-      "nome": "Caipirinha (cachaça)",
-      "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 20.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 1
-    },
-    {
-      "id": 56,
+      "id": 59,
       "categoria_id": 8,
-      "nome": "Tequila prata e ouro",
-      "descricao": null,
-      "preco": 18.0,
+      "nome": "Cachaça Dona Diva Prata",
+      "descricao": "",
+      "preco": 9.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 1
@@ -191,11 +191,21 @@
       "ordem": 1
     },
     {
-      "id": 3,
+      "id": 100,
+      "categoria_id": 1,
+      "nome": "chopp Berlin 300ml",
+      "descricao": "",
+      "preco": 7.5,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/fdf40991-3a96-4016-a433-5378e6ee27da.png",
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 6,
       "categoria_id": 2,
-      "nome": "Original 600ml",
-      "descricao": null,
-      "preco": 16.5,
+      "nome": "Brahma 600ml",
+      "descricao": "",
+      "preco": 14.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
@@ -205,16 +215,16 @@
       "categoria_id": 3,
       "nome": "Corona Zero 330ml",
       "descricao": null,
-      "preco": 13.0,
+      "preco": 13.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
     },
     {
-      "id": 12,
+      "id": 15,
       "categoria_id": 4,
-      "nome": "Guaraná Zero",
-      "descricao": null,
+      "nome": "Coca-Cola Zero KS",
+      "descricao": "",
       "preco": 7.0,
       "imagem_url": null,
       "disponivel": true,
@@ -225,7 +235,7 @@
       "categoria_id": 5,
       "nome": "Limão",
       "descricao": null,
-      "preco": 10.0,
+      "preco": 13.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
@@ -235,27 +245,27 @@
       "categoria_id": 6,
       "nome": "Mojito",
       "descricao": "Rum, soda, limão espremido e hortelã",
-      "preco": 25.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
     },
     {
-      "id": 49,
+      "id": 51,
       "categoria_id": 7,
-      "nome": "Saquerinha (saquê)",
+      "nome": "Caipiroska (Smirnoff)",
       "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 23.0,
+      "preco": 27.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
     },
     {
-      "id": 57,
+      "id": 58,
       "categoria_id": 8,
-      "nome": "Cachaça Salinas",
-      "descricao": null,
-      "preco": 9.0,
+      "nome": "Cachaça Dona Diva Ouro",
+      "descricao": "",
+      "preco": 14.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
@@ -291,11 +301,11 @@
       "ordem": 2
     },
     {
-      "id": 4,
+      "id": 7,
       "categoria_id": 2,
-      "nome": "Baden Baden 600ml",
-      "descricao": null,
-      "preco": 25.0,
+      "nome": "Petra 600ml",
+      "descricao": "",
+      "preco": 13.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -311,11 +321,11 @@
       "ordem": 3
     },
     {
-      "id": 13,
+      "id": 11,
       "categoria_id": 4,
-      "nome": "Soda Limonada",
-      "descricao": null,
-      "preco": 7.0,
+      "nome": "Guaraná lata",
+      "descricao": "",
+      "preco": 7.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -325,7 +335,7 @@
       "categoria_id": 5,
       "nome": "Limonada suíça",
       "descricao": null,
-      "preco": 13.0,
+      "preco": 15.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -335,7 +345,27 @@
       "categoria_id": 6,
       "nome": "Sex on the Beach",
       "descricao": "Laranja, vodka, licor de pêssego e grenadine",
+      "preco": 28.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 48,
+      "categoria_id": 7,
+      "nome": "Caipirinha (cachaça)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
       "preco": 25.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 49,
+      "categoria_id": 7,
+      "nome": "Saquerinha (saquê)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 26.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -345,17 +375,17 @@
       "categoria_id": 7,
       "nome": "Saquerinha de frutas vermelhas",
       "descricao": "Morango e amora",
-      "preco": 26.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
     },
     {
-      "id": 58,
+      "id": 57,
       "categoria_id": 8,
-      "nome": "Cachaça Dona Diva Ouro",
-      "descricao": null,
-      "preco": 10.0,
+      "nome": "Cachaça Salinas",
+      "descricao": "",
+      "preco": 15.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -375,17 +405,17 @@
       "categoria_id": 2,
       "nome": "Heineken 600ml",
       "descricao": null,
-      "preco": 19.0,
+      "preco": 20.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
     },
     {
-      "id": 14,
+      "id": 12,
       "categoria_id": 4,
-      "nome": "Coca-Cola",
-      "descricao": null,
-      "preco": 7.0,
+      "nome": "Guaraná Zero lata",
+      "descricao": "",
+      "preco": 7.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
@@ -395,7 +425,7 @@
       "categoria_id": 5,
       "nome": "Acerola",
       "descricao": null,
-      "preco": 9.0,
+      "preco": 12.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
@@ -405,27 +435,7 @@
       "categoria_id": 6,
       "nome": "Margaritha",
       "descricao": "Cointreau, limão e tequila",
-      "preco": 28.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 4
-    },
-    {
-      "id": 51,
-      "categoria_id": 7,
-      "nome": "Caipiroska (Smirnoff)",
-      "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 25.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 4
-    },
-    {
-      "id": 59,
-      "categoria_id": 8,
-      "nome": "Cachaça Dona Diva Prata",
-      "descricao": null,
-      "preco": 6.0,
+      "preco": 35.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
@@ -441,21 +451,21 @@
       "ordem": 4
     },
     {
-      "id": 6,
+      "id": 4,
       "categoria_id": 2,
-      "nome": "Brahma 600ml",
-      "descricao": null,
-      "preco": 14.0,
+      "nome": "Baden Baden 600ml",
+      "descricao": "",
+      "preco": 25.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
     },
     {
-      "id": 15,
+      "id": 13,
       "categoria_id": 4,
-      "nome": "Coca-Cola Zero",
-      "descricao": null,
-      "preco": 7.0,
+      "nome": "H2O",
+      "descricao": "",
+      "preco": 8.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
@@ -465,7 +475,7 @@
       "categoria_id": 5,
       "nome": "Maracujá",
       "descricao": null,
-      "preco": 12.0,
+      "preco": 13.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
@@ -475,17 +485,27 @@
       "categoria_id": 6,
       "nome": "Aperol Spritz",
       "descricao": "Aperol, espumante e água com gás",
-      "preco": 28.0,
+      "preco": 32.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
     },
     {
-      "id": 52,
+      "id": 54,
       "categoria_id": 7,
-      "nome": "Caipiroska (Absolut)",
-      "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 28.0,
+      "nome": "Caipiroska Frutas Vermelhas",
+      "descricao": "Vodka Smirnoff, morango e amora",
+      "preco": 29.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 5
+    },
+    {
+      "id": 56,
+      "categoria_id": 8,
+      "nome": "Tequila prata ou ouro",
+      "descricao": "",
+      "preco": 24.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
@@ -495,7 +515,7 @@
       "categoria_id": 8,
       "nome": "Campari",
       "descricao": null,
-      "preco": 14.0,
+      "preco": 22.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
@@ -511,21 +531,11 @@
       "ordem": 5
     },
     {
-      "id": 7,
-      "categoria_id": 2,
-      "nome": "Petra 600ml",
-      "descricao": null,
-      "preco": 13.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 6
-    },
-    {
       "id": 16,
       "categoria_id": 4,
       "nome": "Schweppes",
       "descricao": null,
-      "preco": 7.0,
+      "preco": 8.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
@@ -535,7 +545,7 @@
       "categoria_id": 5,
       "nome": "Morango",
       "descricao": null,
-      "preco": 12.0,
+      "preco": 15.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
@@ -545,17 +555,17 @@
       "categoria_id": 6,
       "nome": "Negroni",
       "descricao": "Gin Tanqueray, vermute e Campari",
-      "preco": 28.0,
+      "preco": 35.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
     },
     {
-      "id": 53,
+      "id": 52,
       "categoria_id": 7,
-      "nome": "Caip Tropical",
-      "descricao": "Cachaça, limão cravo e maracujá",
-      "preco": 25.0,
+      "nome": "Caipiroska (Absolut)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 32.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
@@ -563,9 +573,9 @@
     {
       "id": 61,
       "categoria_id": 8,
-      "nome": "Rum Bacardi prata e ouro",
-      "descricao": null,
-      "preco": 12.0,
+      "nome": "Rum Bacardi prata ou ouro",
+      "descricao": "",
+      "preco": 20.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
@@ -583,8 +593,8 @@
     {
       "id": 17,
       "categoria_id": 4,
-      "nome": "Tônica",
-      "descricao": null,
+      "nome": "Tônica lata",
+      "descricao": "",
       "preco": 7.0,
       "imagem_url": null,
       "disponivel": true,
@@ -605,16 +615,16 @@
       "categoria_id": 6,
       "nome": "Piña Colada",
       "descricao": "Abacaxi, leite condensado, rum e leite de coco",
-      "preco": 25.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 7
     },
     {
-      "id": 54,
+      "id": 53,
       "categoria_id": 7,
-      "nome": "Caip Frutas Vermelhas",
-      "descricao": "Morango e amora",
+      "nome": "Caip Tropical",
+      "descricao": "Cachaça, limão cravo e maracujá",
       "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
@@ -625,7 +635,7 @@
       "categoria_id": 8,
       "nome": "Vodka Smirnoff",
       "descricao": null,
-      "preco": 14.0,
+      "preco": 20.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 7
@@ -655,7 +665,7 @@
       "categoria_id": 5,
       "nome": "Abacaxi com hortelã",
       "descricao": null,
-      "preco": 12.5,
+      "preco": 13.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 8
@@ -665,7 +675,7 @@
       "categoria_id": 6,
       "nome": "Moscow Mule",
       "descricao": "Vodka, xarope de gengibre, limão e água com gás",
-      "preco": 25.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 8
@@ -675,7 +685,7 @@
       "categoria_id": 7,
       "nome": "Caip Verão (Smirnoff)",
       "descricao": "Mexerica, limão e gengibre",
-      "preco": 27.0,
+      "preco": 29.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 8
@@ -685,7 +695,7 @@
       "categoria_id": 8,
       "nome": "Vodka Absolut",
       "descricao": null,
-      "preco": 20.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 8
@@ -713,9 +723,9 @@
     {
       "id": 29,
       "categoria_id": 5,
-      "nome": "Laranja com morango",
-      "descricao": null,
-      "preco": 15.0,
+      "nome": "Suco duas Frutas",
+      "descricao": "Opções de frutas: laranja, abacaxi, morango, acerola, maracujá.",
+      "preco": 17.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 9
@@ -725,7 +735,7 @@
       "categoria_id": 6,
       "nome": "Maracujá Jack",
       "descricao": "Jack Daniels, maracujá e gelo",
-      "preco": 38.0,
+      "preco": 42.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 9
@@ -735,7 +745,7 @@
       "categoria_id": 8,
       "nome": "Whisky Red Label",
       "descricao": null,
-      "preco": 20.0,
+      "preco": 25.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 9
@@ -761,16 +771,6 @@
       "ordem": 10
     },
     {
-      "id": 30,
-      "categoria_id": 5,
-      "nome": "Laranja com acerola",
-      "descricao": null,
-      "preco": 14.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 10
-    },
-    {
       "id": 42,
       "categoria_id": 6,
       "nome": "Gin Aromático",
@@ -785,7 +785,7 @@
       "categoria_id": 8,
       "nome": "Whisky Black Label",
       "descricao": null,
-      "preco": 27.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 10
@@ -804,8 +804,8 @@
       "id": 31,
       "categoria_id": 5,
       "nome": "Frutas vermelhas",
-      "descricao": null,
-      "preco": 15.0,
+      "descricao": "Morango e amora.",
+      "preco": 17.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 11
@@ -815,7 +815,7 @@
       "categoria_id": 6,
       "nome": "Gin Mule",
       "descricao": "Gin Tanqueray, tônica, xarope de gengibre, limão e espuma de gengibre",
-      "preco": 28.0,
+      "preco": 30.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 11
@@ -825,7 +825,7 @@
       "categoria_id": 8,
       "nome": "Whisky Jack Daniels",
       "descricao": null,
-      "preco": 27.0,
+      "preco": 32.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 11
@@ -843,9 +843,9 @@
     {
       "id": 32,
       "categoria_id": 5,
-      "nome": "Suco Paris",
-      "descricao": null,
-      "preco": 16.0,
+      "nome": "Suco Bar do João",
+      "descricao": "Uma combinação de laranja, abacaxi, morango e mel.",
+      "preco": 20.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 12
@@ -855,7 +855,7 @@
       "categoria_id": 6,
       "nome": "Gin Frutado",
       "descricao": "Gin Tanqueray, tônica, morango e maracujá",
-      "preco": 28.0,
+      "preco": 34.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 12
@@ -865,7 +865,7 @@
       "categoria_id": 8,
       "nome": "Licor 43",
       "descricao": null,
-      "preco": 25.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 12
@@ -885,7 +885,7 @@
       "categoria_id": 6,
       "nome": "Blonde Citrus",
       "descricao": "Whisky Johnnie Walker Blonde, cítrus e laranja",
-      "preco": 26.0,
+      "preco": 28.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 13
@@ -915,7 +915,7 @@
       "categoria_id": 6,
       "nome": "Amora Blonde",
       "descricao": "Whisky Johnnie Walker Blonde, água com gás, xarope de grenadine e amora",
-      "preco": 28.0,
+      "preco": 32.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 14
@@ -935,7 +935,7 @@
       "categoria_id": 6,
       "nome": "Blonde Tropical",
       "descricao": "Whisky Johnnie Walker Blonde, água com gás, maracujá e limão cravo",
-      "preco": 27.0,
+      "preco": 30.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 15
