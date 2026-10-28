@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-27T18:10:16.172151+00:00",
+  "atualizado_em": "2026-10-28T18:27:01.080975+00:00",
   "categorias": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
       "id": 7,
       "nome": "Caipirinhas",
       "ordem": 7,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/5cb63495-4772-4a16-b11a-df986f110ffc.jpg",
       "ativo": true
     },
     {
@@ -72,10 +72,17 @@
       "ativo": true
     },
     {
+      "id": 12,
+      "nome": "Lanche",
+      "ordem": 11,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/adb6d4cb-39e3-4f87-9f97-0c13daa26a87.png",
+      "ativo": true
+    },
+    {
       "id": 11,
       "nome": "Sobremesas",
-      "ordem": 11,
-      "imagem_url": null,
+      "ordem": 12,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/b5b8b7fc-8a01-4e02-835e-506f9f356231.png",
       "ativo": true
     }
   ],
@@ -151,6 +158,16 @@
       "ordem": 1
     },
     {
+      "id": 51,
+      "categoria_id": 7,
+      "nome": "Caipiroska (Smirnoff)",
+      "descricao": "Limão, morango, maracujá ou kiwi",
+      "preco": 27.0,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
       "id": 59,
       "categoria_id": 8,
       "nome": "Cachaça Dona Diva Prata",
@@ -175,7 +192,7 @@
       "categoria_id": 10,
       "nome": "Bolinho de costela — 9 unidades",
       "descricao": "Recheado com queijo",
-      "preco": 58.9,
+      "preco": 62.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 1
@@ -197,6 +214,16 @@
       "descricao": "",
       "preco": 7.5,
       "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/fdf40991-3a96-4016-a433-5378e6ee27da.png",
+      "disponivel": true,
+      "ordem": 1
+    },
+    {
+      "id": 102,
+      "categoria_id": 12,
+      "nome": "Burguer salada",
+      "descricao": "",
+      "preco": 32.9,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/beb24240-57eb-4723-a0c5-353dd2a7de92.png",
       "disponivel": true,
       "ordem": 1
     },
@@ -251,11 +278,11 @@
       "ordem": 2
     },
     {
-      "id": 51,
+      "id": 48,
       "categoria_id": 7,
-      "nome": "Caipiroska (Smirnoff)",
+      "nome": "Caipirinha (cachaça)",
       "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 27.0,
+      "preco": 25.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
@@ -285,7 +312,7 @@
       "categoria_id": 10,
       "nome": "Bolinho de tilápia — 300g",
       "descricao": null,
-      "preco": 39.9,
+      "preco": 42.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 2
@@ -297,6 +324,16 @@
       "descricao": "Grand gâteau com calda de chocolate, morangos picados e leite condensado",
       "preco": 40.0,
       "imagem_url": null,
+      "disponivel": true,
+      "ordem": 2
+    },
+    {
+      "id": 104,
+      "categoria_id": 12,
+      "nome": "Burguer bacon",
+      "descricao": "Hambúrguer cara preta de 120g , queijo prato, bacon crocante e fatias e pão de brioche selado na manteiga",
+      "preco": 35.9,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/8e92df1e-cb81-47d6-8cef-a0d2eccb9b7a.png",
       "disponivel": true,
       "ordem": 2
     },
@@ -351,16 +388,6 @@
       "ordem": 3
     },
     {
-      "id": 48,
-      "categoria_id": 7,
-      "nome": "Caipirinha (cachaça)",
-      "descricao": "Limão, morango, maracujá ou kiwi",
-      "preco": 25.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 3
-    },
-    {
       "id": 49,
       "categoria_id": 7,
       "nome": "Saquerinha (saquê)",
@@ -395,8 +422,28 @@
       "categoria_id": 10,
       "nome": "Bolinho de bacalhau — 10 unidades",
       "descricao": null,
-      "preco": 66.5,
+      "preco": 68.9,
       "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 103,
+      "categoria_id": 11,
+      "nome": "Pudim no copo",
+      "descricao": "",
+      "preco": 16.5,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 105,
+      "categoria_id": 12,
+      "nome": "Burguer Pork",
+      "descricao": "Hambúrguer cara preta de 120g, pulled pork, queijo prato e pão de brioche selado na manteiga.",
+      "preco": 41.9,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/f23fdaee-8024-499b-a4d2-950e3eb3dd35.png",
       "disponivel": true,
       "ordem": 3
     },
@@ -445,7 +492,7 @@
       "categoria_id": 10,
       "nome": "Bolinho de provolone — 300g",
       "descricao": null,
-      "preco": 65.9,
+      "preco": 67.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
@@ -525,7 +572,7 @@
       "categoria_id": 10,
       "nome": "Salaminho",
       "descricao": null,
-      "preco": 36.0,
+      "preco": 38.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 5
@@ -585,7 +632,7 @@
       "categoria_id": 10,
       "nome": "Batata frita — 400g",
       "descricao": null,
-      "preco": 32.0,
+      "preco": 34.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 6
@@ -645,7 +692,7 @@
       "categoria_id": 10,
       "nome": "Batata pork",
       "descricao": "Batata frita com pulled pork, suculento cupim lombro assado até desmanchar e molho barbecue",
-      "preco": 47.9,
+      "preco": 50.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 7
@@ -705,7 +752,7 @@
       "categoria_id": 10,
       "nome": "Batata com cheddar e bacon — 400g",
       "descricao": null,
-      "preco": 45.9,
+      "preco": 48.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 8
@@ -755,7 +802,7 @@
       "categoria_id": 10,
       "nome": "Batata com queijo e bacon — 400g",
       "descricao": null,
-      "preco": 43.9,
+      "preco": 46.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 9
@@ -795,7 +842,7 @@
       "categoria_id": 10,
       "nome": "Frango na panko — 330g",
       "descricao": null,
-      "preco": 39.9,
+      "preco": 42.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 10
@@ -835,7 +882,7 @@
       "categoria_id": 10,
       "nome": "Tulipa de frango — 400g",
       "descricao": null,
-      "preco": 42.9,
+      "preco": 40.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 11
@@ -875,7 +922,7 @@
       "categoria_id": 10,
       "nome": "Tilápia na panko — 300g",
       "descricao": null,
-      "preco": 57.9,
+      "preco": 61.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 12
@@ -945,7 +992,7 @@
       "categoria_id": 10,
       "nome": "Mini pastel de milho — 10 unidades",
       "descricao": "Carne e queijo",
-      "preco": 37.5,
+      "preco": 42.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 15
@@ -955,7 +1002,7 @@
       "categoria_id": 10,
       "nome": "Torresmo de rolo mineiro — 450g",
       "descricao": "Torresmos com mussarela derretida e pimenta biquinho",
-      "preco": 58.9,
+      "preco": 62.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 16
@@ -965,7 +1012,7 @@
       "categoria_id": 10,
       "nome": "Torresminho pipoca",
       "descricao": null,
-      "preco": 33.9,
+      "preco": 34.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 17
@@ -974,8 +1021,8 @@
       "id": 88,
       "categoria_id": 10,
       "nome": "Isca de parmegiana",
-      "descricao": "Filé mignon em tiras empanado na panko com molho de tomate e queijo, acompanhado de fritas",
-      "preco": 103.5,
+      "descricao": "Carne bovina selecionada em tiras empanado na panko com molho de tomate finalizado  c/ queijo gratinado, acompanhado de fritas.",
+      "preco": 109.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 18
@@ -985,7 +1032,7 @@
       "categoria_id": 10,
       "nome": "Linguiça de costela Angus",
       "descricao": "Batata frita com ervas finas, queijo mussarela derretido, farofa e vinagrete",
-      "preco": 62.9,
+      "preco": 64.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 19
@@ -995,7 +1042,7 @@
       "categoria_id": 10,
       "nome": "Contra filé com fritas — 500g",
       "descricao": "Contra filé, fritas, vinagrete e farofa",
-      "preco": 92.9,
+      "preco": 98.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 20
@@ -1003,29 +1050,19 @@
     {
       "id": 91,
       "categoria_id": 10,
-      "nome": "Filé mignon nevada",
-      "descricao": "Filé mignon ao molho branco com queijo gorgonzola e parmesão",
-      "preco": 107.9,
+      "nome": "Filé nevada",
+      "descricao": "Carne bovina selecionada picadinho ao molho branco de 4 queijos (gorgonzola, parmesão, mussarela e catupiry).",
+      "preco": 118.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 21
-    },
-    {
-      "id": 92,
-      "categoria_id": 10,
-      "nome": "Cupim à moda da casa — serve 2 pessoas",
-      "descricao": "Coberto com mussarela, assado e finalizado no sous vide por 20h, acompanhado de farofa, vinagrete e mandioca cozida",
-      "preco": 120.9,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 22
     },
     {
       "id": 93,
       "categoria_id": 10,
       "nome": "Costelinha barbecue 500g",
       "descricao": "Costelinha de porco, barbecue e batata frita",
-      "preco": 79.9,
+      "preco": 82.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 23
@@ -1045,30 +1082,10 @@
       "categoria_id": 10,
       "nome": "Escondidinho de costela 2 pessoas",
       "descricao": null,
-      "preco": 68.9,
+      "preco": 70.9,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 25
-    },
-    {
-      "id": 96,
-      "categoria_id": 10,
-      "nome": "Escondidinho de camarão 1 pessoa",
-      "descricao": null,
-      "preco": 68.9,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 26
-    },
-    {
-      "id": 97,
-      "categoria_id": 10,
-      "nome": "Dadinho de tapioca — 300g",
-      "descricao": "Recheado com queijo coalho e molho de frutas vermelhas",
-      "preco": 57.0,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 27
     }
   ]
 }
