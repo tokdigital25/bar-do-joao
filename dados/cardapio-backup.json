@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-28T18:27:01.080975+00:00",
+  "atualizado_em": "2026-10-29T18:36:48.609796+00:00",
   "categorias": [
     {
       "id": 1,
@@ -212,7 +212,7 @@
       "categoria_id": 1,
       "nome": "chopp Berlin 300ml",
       "descricao": "",
-      "preco": 7.5,
+      "preco": 11.0,
       "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/fdf40991-3a96-4016-a433-5378e6ee27da.png",
       "disponivel": true,
       "ordem": 1
