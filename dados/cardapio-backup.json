@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-29T18:36:48.609796+00:00",
+  "atualizado_em": "2026-10-30T18:08:18.458426+00:00",
   "categorias": [
     {
       "id": 1,
@@ -33,21 +33,21 @@
       "id": 5,
       "nome": "Sucos",
       "ordem": 5,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/5256ee7c-ac53-4559-a93c-72826dd0d8e5.jpg",
       "ativo": true
     },
     {
       "id": 6,
       "nome": "Drinks",
       "ordem": 6,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/b617000b-08ce-4246-a541-f96da57d1c0a.jpg",
       "ativo": true
     },
     {
       "id": 7,
       "nome": "Caipirinhas",
       "ordem": 7,
-      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/5cb63495-4772-4a16-b11a-df986f110ffc.jpg",
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/e7766b9b-0591-455d-9144-66c5651bc589.png",
       "ativo": true
     },
     {
@@ -68,7 +68,7 @@
       "id": 10,
       "nome": "Porções",
       "ordem": 10,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/categorias/cd68d530-47de-47f1-aa74-0af0be7a802d.png",
       "ativo": true
     },
     {
@@ -211,7 +211,7 @@
       "id": 100,
       "categoria_id": 1,
       "nome": "chopp Berlin 300ml",
-      "descricao": "",
+      "descricao": "Chopp Berlin 300ml , promoção de terça a sábado das 18:00 às 20:00 de 11,00 por 7,50",
       "preco": 11.0,
       "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/fdf40991-3a96-4016-a433-5378e6ee27da.png",
       "disponivel": true,
@@ -323,7 +323,7 @@
       "nome": "Grand gâteau",
       "descricao": "Grand gâteau com calda de chocolate, morangos picados e leite condensado",
       "preco": 40.0,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/16e5e19c-58d7-45a1-884a-ea6bdc63acd4.jpg",
       "disponivel": true,
       "ordem": 2
     },
@@ -342,7 +342,7 @@
       "categoria_id": 2,
       "nome": "Petra 600ml",
       "descricao": "",
-      "preco": 13.5,
+      "preco": 9.5,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 3
@@ -433,7 +433,7 @@
       "nome": "Pudim no copo",
       "descricao": "",
       "preco": 16.5,
-      "imagem_url": null,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/ed839113-5cfb-4af9-a8ee-24ade9e80725.jpg",
       "disponivel": true,
       "ordem": 3
     },
