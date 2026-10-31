@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-30T18:08:18.458426+00:00",
+  "atualizado_em": "2026-10-31T17:20:32.406648+00:00",
   "categorias": [
     {
       "id": 1,
@@ -493,6 +493,16 @@
       "nome": "Bolinho de provolone — 300g",
       "descricao": null,
       "preco": 67.9,
+      "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 106,
+      "categoria_id": 3,
+      "nome": "Cerveja flying fish",
+      "descricao": "Cerveja com sabor lemon (lata 350ml)",
+      "preco": 5.0,
       "imagem_url": null,
       "disponivel": true,
       "ordem": 4
@@ -1051,7 +1061,7 @@
       "id": 91,
       "categoria_id": 10,
       "nome": "Filé nevada",
-      "descricao": "Carne bovina selecionada picadinho ao molho branco de 4 queijos (gorgonzola, parmesão, mussarela e catupiry).",
+      "descricao": "Carne bovina selecionada picadinho ao molho branco de 4 queijos (gorgonzola, parmesão, mussarela e catupiry).\nAcompanhamento: pão francês",
       "preco": 118.9,
       "imagem_url": null,
       "disponivel": true,
