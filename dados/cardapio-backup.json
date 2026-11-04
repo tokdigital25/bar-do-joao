@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-03T19:43:18.055499+00:00",
+  "atualizado_em": "2026-11-04T19:58:08.417069+00:00",
   "categorias": [
     {
       "id": 1,
@@ -1016,16 +1016,6 @@
       "imagem_url": null,
       "disponivel": true,
       "ordem": 16
-    },
-    {
-      "id": 87,
-      "categoria_id": 10,
-      "nome": "Torresminho pipoca",
-      "descricao": null,
-      "preco": 34.9,
-      "imagem_url": null,
-      "disponivel": true,
-      "ordem": 17
     },
     {
       "id": 88,
