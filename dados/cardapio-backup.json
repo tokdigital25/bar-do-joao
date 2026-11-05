@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-04T19:58:08.417069+00:00",
+  "atualizado_em": "2026-11-05T20:12:39.631910+00:00",
   "categorias": [
     {
       "id": 1,
@@ -300,10 +300,10 @@
     {
       "id": 70,
       "categoria_id": 9,
-      "nome": "Vinho garrafa",
-      "descricao": "PREÇO SOB CONSULTA — valor provisório R$ 0,00; atualizar antes de publicar.",
-      "preco": 0.0,
-      "imagem_url": null,
+      "nome": "Alamos malbec",
+      "descricao": "Vinho italiano uva malbec 2025",
+      "preco": 145.0,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/4bada951-f33c-4413-b1ed-f3150853d696.jpg",
       "disponivel": true,
       "ordem": 2
     },
@@ -444,6 +444,16 @@
       "descricao": "Hambúrguer cara preta de 120g, pulled pork, queijo prato e pão de brioche selado na manteiga.",
       "preco": 41.9,
       "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/f23fdaee-8024-499b-a4d2-950e3eb3dd35.png",
+      "disponivel": true,
+      "ordem": 3
+    },
+    {
+      "id": 107,
+      "categoria_id": 9,
+      "nome": "Promesa blanc",
+      "descricao": "Vinho chileno, uva sauvignon blanc",
+      "preco": 70.0,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/79845b90-f780-447a-aef0-f1bd318b796b.jpg",
       "disponivel": true,
       "ordem": 3
     },
