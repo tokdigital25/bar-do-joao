@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-05T20:12:39.631910+00:00",
+  "atualizado_em": "2026-11-06T19:37:55.709399+00:00",
   "categorias": [
     {
       "id": 1,
@@ -514,6 +514,16 @@
       "descricao": "Cerveja com sabor lemon (lata 350ml)",
       "preco": 5.0,
       "imagem_url": null,
+      "disponivel": true,
+      "ordem": 4
+    },
+    {
+      "id": 108,
+      "categoria_id": 12,
+      "nome": "Soco na costela",
+      "descricao": "Delicioso hambúrguer cara preta de 120g com quatro camadas de queijo prato um steak de costela com catupiry e gorgonzola, rúcula num pão de brioche selado na manteiga",
+      "preco": 48.9,
+      "imagem_url": "https://pwynwxegkxksojhhjbmr.supabase.co/storage/v1/object/public/imagens-cardapio/produtos/d40a1b53-3d87-46ee-ac57-598c72dd5346.png",
       "disponivel": true,
       "ordem": 4
     },
